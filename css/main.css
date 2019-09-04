@@ -1,0 +1,137 @@
+@import url(https://fonts.google.com/specimen/Rubik);
+
+:root {
+  --soft-blue: hsl(231, 69%, 60%);
+  --red: hsl(0, 94%, 66%);
+  --dark-red: hsl(0, 78%, 49%);
+  --ash-blue: hsl(229, 8%, 60%);
+  --night-blue: hsl(229, 31%, 21%);
+  --font-size: 18px;
+  --font-family: "Rubik";
+  --normal: 400;
+  --bold: 500;
+  --shadow: 0 1px 10x rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: black;
+}
+
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  color: var(--ash-blue);
+}
+
+a {
+  text-decoration: none;
+  color: var(--night-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+.navbar .link:hover {
+  color: var(--ash-blue);
+}
+
+.navigation {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+}
+
+.navigation .navbar {
+  margin-left: auto;
+}
+
+.navbar .link {
+  margin-left: 2.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4rem 1.7rem;
+  text-align: center;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s eas-in-out;
+  background: rgb(102, 101, 101);
+}
+
+.navbar .btn:hover{
+  color: white;
+}
+
+.btn-red {
+  border-color: var(--dark-red);
+  background-color: var(--red);
+}
+
+.login {
+  box-shadow: var(--shadow); 
+}
+
+
+/* Portfolio styling */
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+.topic {
+    text-align: center;
+}
+.portfolio_link {
+    border-bottom: 2px solid var(--red);
+    padding: 10px 30px;
+    width: 10%;
+    left: 30%;
+    position: absolute;
+}
+
+.profile-image1 {
+    margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: all .5s;
+  left: 32%;
+  position: absolute;
+}
+.profile-image2 {
+    margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: all .5s;
+  left: 56%;
+  position: absolute;
+}
+
+.bless_portfolio{
+    border-bottom: 2px solid var();
+    padding: 10px 30px;
+    width: 10%;
+    left: 40%;
+    position: absolute;
+}
+
+.profile-image1:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+.profile-image2:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.image1 {
+    margin-top: 5%;
+}
