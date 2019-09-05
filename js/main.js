@@ -1,1 +1,0 @@
-var prof = document.getElementsByClassName('bless_portfolio').style.borderBottom = 'thick solid red';
